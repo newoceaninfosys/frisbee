@@ -254,7 +254,8 @@ class Frisbee {
   }
 
   _request({ method, originalPath, originalOptions, signal, abortToken }) {
-    return async (path = originalPath, options = originalOptions) => {
+    return async (path = originalPath, options = {}) => {
+      options = Object.assign({}, originalOptions, options)
       debug('frisbee', method, path, options);
       // path must be string
       if (typeof path !== 'string')

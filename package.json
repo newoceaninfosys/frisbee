@@ -1,7 +1,7 @@
 {
   "name": "frisbee",
   "description": "Modern fetch-based alternative to axios/superagent/request. Great for React Native.",
-  "version": "3.1.4",
+  "version": "3.1.5",
   "author": "Nick Baugh <niftylettuce@gmail.com> (http://niftylettuce.com/)",
   "ava": {
     "failFast": true,
@@ -36,7 +36,8 @@
     "Brent Vatne <brentvatne@gmail.com>",
     "Hosmel Quintana <hosmelq@gmail.com>",
     "Kyle Kirbatski <kkirbatski@gmrmarketing.com>",
-    "Adam Jenkins <akmjenkins@gmail.com>"
+    "Adam Jenkins <akmjenkins@gmail.com>",
+    "Shawn Dao <sang.dao@newoceaninfosys.com>"
   ],
   "dependencies": {
     "@babel/runtime": "^7.10.2",
